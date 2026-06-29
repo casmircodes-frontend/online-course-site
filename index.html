@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>Prince Casmir | Web Design Hub - Premium Courses</title>
+    <!-- Font Awesome 6 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,600;14..32,700&display=swap"
+        rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="preloader" id="preloader">
+        <div class="loader-icon">
+            <i class="fas fa-code"></i>
+        </div>
+        <div class="progress-ring"></div>
+    </div>
+
+    <div class="main">
+        <div class="navbar">
+            <div class="logo">
+                <h1>Casmir<span> codes</span></h1>
+            </div>
+            <button class="hamburger" id="hamburgerBtn"><i class="fas fa-bars"></i></button>
+            <div class="menu" id="menuContainer">
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#courses">COURSES</a></li>
+                    <li><a href="#whyus">WHY US</a></li>
+                    <li><a href="#stories">STORIES</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                </ul>
+            </div>
+            <div class="search">
+                <input class="srch" id="searchInput" type="text" placeholder="Search courses...">
+                <button class="btn" id="searchButton" type="button">Search</button>
+            </div>
+            <button class="theme-toggle" id="themeToggle"><i class="fas fa-moon"></i></button>
+        </div>
+
+        <div class="content">
+            <div class="text-area" data-aos="fade-right">
+                <h1>Web Design & <br><span>Development</span> <br>Course</h1>
+                <p class="par">Unlock your potential with expertly designed online courses tailored to help you master
+                    in-demand digital skills.<br> Learn web design, development, and modern technologies through
+                    structured lessons and real-world projects.<br> Study anytime, anywhere, and build the future you
+                    deserve at your own pace.</p>
+                <a href="#courses" class="cn">VIEW COURSES</a>
+            </div>
+            <div class="form-stack" data-aos="fade-left">
+                <form class="form" id="loginForm">
+                    <h2>Login Here</h2>
+                    <input type="email" placeholder="Enter Email Here">
+                    <input type="password" placeholder="Enter Password Here">
+                    <button class="btnn" type="submit">Login</button>
+                    <p class="link">Don't have an account? <a href="#" class="toggle-form" data-target="signupForm">Sign
+                            up here</a></p>
+                    <p class="liw">Log in with</p>
+                    <div class="social-icons">
+                        <a href="#" class="social-login" data-provider="Facebook"><ion-icon
+                                name="logo-facebook"></ion-icon></a>
+                        <a href="#" class="social-login" data-provider="Instagram"><ion-icon
+                                name="logo-instagram"></ion-icon></a>
+                        <a href="#" class="social-login" data-provider="Google"><ion-icon
+                                name="logo-google"></ion-icon></a>
+                        <a href="#" class="social-login" data-provider="WhatsApp"><ion-icon
+                                name="logo-whatsapp"></ion-icon></a>
+                    </div>
+                </form>
+
+                <form class="form signup-form" id="signupForm" style="display: none;">
+                    <h2>Create Account</h2>
+                    <input type="text" placeholder="Full Name">
+                    <input type="email" placeholder="Email Address">
+                    <input type="password" placeholder="Create Password">
+                    <button class="btnn" type="submit">Sign Up</button>
+                    <p class="link">Already have an account? <a href="#" class="toggle-form" data-target="loginForm">Log
+                            in</a></p>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <section class="about" id="about" data-aos="fade-right">
+        <h2>About Us</h2>
+        <p>Our e-learning platform was created to make quality education accessible, practical, and career-focused. We
+            specialize in delivering structured online courses in web design, development, and modern digital skills
+            that prepare learners for real-world opportunities. Through expert-led lessons, hands-on projects, and
+            flexible learning paths, we empower students to grow with confidence and achieve measurable results.</p>
+        <p style="margin-top: 18px;">Whether you are just starting your journey or looking to upgrade your skills, our
+            mission is to provide a supportive learning environment that encourages progress, creativity, and continuous
+            improvement.</p>
+    </section>
+
+    <!-- PAID COURSES SECTION -->
+    <section id="courses">
+        <h2><i class="fas fa-graduation-cap"></i> Premium Paid Courses</h2>
+        <div class="courses-grid">
+
+            <div class="course-card">
+                <img src="image/1055687.png" alt="Web Design">
+                <h3>Complete Web Design</h3>
+                <p>Master HTML, CSS, Flex, Grid & modern responsive layouts. Build real projects.</p>
+                <div class="price">$49 <small>USD</small></div>
+                <button class="enroll-btn" data-course="Complete Web Design">Enroll Now →</button>
+            </div>
+            <div class="course-card">
+                <img src="image/3242257.png" alt="Frontend Dev">
+                <h3>Frontend Mastery</h3>
+                <p>JavaScript, React, Tailwind, and advanced interactivity. Lifetime access.</p>
+                <div class="price">$79 <small>USD</small></div>
+                <button class="enroll-btn" data-course="Frontend Mastery">Enroll Now →</button>
+            </div>
+            <div class="course-card">
+                <img src="image/2085063.png" alt="Full Stack">
+                <h3>Full Stack Bootcamp</h3>
+                <p>Node.js, MongoDB, Express, APIs, and deployment. Become a complete developer.</p>
+                <div class="price">$129 <small>USD</small></div>
+                <button class="enroll-btn" data-course="Full Stack Bootcamp">Enroll Now →</button>
+            </div>
+            <div class="course-card">
+                <img src="image/906325.png" alt="UI/UX">
+                <h3>UI/UX Design Pro</h3>
+                <p>Figma, prototyping, user research, and portfolio projects. Industry-focused.</p>
+                <div class="price">$59 <small>USD</small></div>
+                <button class="enroll-btn" data-course="UI/UX Design Pro">Enroll Now →</button>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- WHY US SECTION -->
+    <section id="whyus">
+        <h2>Why Choose Us?</h2>
+        <div class="why-grid">
+            <div class="why-card">
+                <i class="fas fa-chalkboard-user"></i>
+                <h3>Expert Instructors</h3>
+                <p>Learn from industry professionals with years of real-world experience.</p>
+            </div>
+            <div class="why-card">
+                <i class="fas fa-laptop-code"></i>
+                <h3>Hands-on Projects</h3>
+                <p>Build a portfolio that stands out with practical, project-based learning.</p>
+            </div>
+            <div class="why-card">
+                <i class="fas fa-certificate"></i>
+                <h3>Certification</h3>
+                <p>Earn verifiable certificates upon completion to boost your career.</p>
+            </div>
+            <div class="why-card">
+                <i class="fas fa-headset"></i>
+                <h3>24/7 Support</h3>
+                <p>Dedicated mentors and community to guide you at every step.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- STUDENT STORIES SECTION -->
+    <section id="stories">
+        <h2>Success Stories</h2>
+        <div class="stories-grid">
+            <div class="story-card">
+                <i class="fas fa-quote-left"></i>
+                <div class="story-text">“The web design course changed my career completely. Within 3 months I landed my
+                    first freelance client. The projects were realistic and challenging.”</div>
+                <div class="student-name">— Sarah Johnson</div>
+                <div style="font-size:0.85rem; margin-top:5px;">Freelance Designer</div>
+            </div>
+            <div class="story-card">
+                <i class="fas fa-quote-left"></i>
+                <div class="story-text">“Full Stack Bootcamp gave me the confidence to apply for developer roles. The
+                    instructors are amazing and the support is top-notch!”</div>
+                <div class="student-name">— Michael Okafor</div>
+                <div style="font-size:0.85rem;">Software Engineer</div>
+            </div>
+            <div class="story-card">
+                <i class="fas fa-quote-left"></i>
+                <div class="story-text">“I had zero coding experience, but the structured lessons made everything clear.
+                    Now I run my own web agency. Thank you!”</div>
+                <div class="student-name">— Priya Sharma</div>
+                <div style="font-size:0.85rem;">Agency Founder</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- existing services & design sections -->
+    <section class="services" id="services">
+        <h2>Our Services</h2>
+        <div class="service-cards">
+            <div class="card"><img src="image/noseberrydigitals-design-9824072_1920.jpg" alt="Web Design">
+                <h3>Web Design</h3>
+                <p>Creative responsive designs for all devices.</p>
+            </div>
+            <div class="card"><img src="image/as_photography-graphic-design-studio-1563080_1920.jpg" alt="Development">
+                <h3>Web Development</h3>
+                <p>Robust, interactive websites using latest tech.</p>
+            </div>
+            <div class="card"><img src="image/firmbee-ux-787968_1920.jpg" alt="UI/UX">
+                <h3>UI/UX Design</h3>
+                <p>Intuitive interfaces & seamless experiences.</p>
+            </div>
+            <div class="card"><img src="image/cyberco-web-designer-10160858_1920.png" alt="Marketing">
+                <h3>Digital Marketing</h3>
+                <p>Optimize campaigns & reach right audience.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="design" id="design">
+        <h2>Designs We Render</h2>
+        <div class="design-cards">
+            <div class="card"><img src="image/xgen360-logo-6609626_1920.png" alt="Logo">
+                <h3>Logo Design</h3>
+                <p>Custom brand identity logos.</p>
+            </div>
+            <div class="card"><img src="image/u_yzoxh6dzpy-computer-8393582_1920.jpg" alt="Web UI">
+                <h3>Web UI Design</h3>
+                <p>Clean modern interfaces.</p>
+            </div>
+            <div class="card"><img src="image/startupstockphotos-startup-593305_1920.jpg" alt="Graphic">
+                <h3>Graphic Design</h3>
+                <p>Creative social media assets.</p>
+            </div>
+            <div class="card"><img src="image/nick_h-imac-1999636_1920.png" alt="Responsive">
+                <h3>Responsive Design</h3>
+                <p>Perfect on mobile, tablet & desktop.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2>Contact Us</h2>
+        <p class="contact-intro">Have questions or want to get in touch? Fill out the form below.</p>
+        <div class="contact-container">
+            <form class="contact-form" action="https://formspree.io/f/mjkrqzb" method="post">
+                <input type="hidden" name="replyto" id="replyto">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+                <button type="submit" class="contact-btn">Send Message</button>
+            </form>
+            <div class="contact-info">
+                <h3>Reach Out</h3>
+                <p>Email: casmirokeke38@gmail.com</p>
+                <p>Phone: +234 8163513869</p>
+                <div class="social-icons">
+                    <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+                    <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+                    <a href="#"><ion-icon name="logo-google"></ion-icon></a>
+                    <a href="#"><ion-icon name="logo-whatsapp"></ion-icon></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-brand">
+                <div class="footer-logo">
+                    <h1>Casmir<span>codes</span></h1>
+                </div>
+                <p>Casmircodes Web Design Hub - Empowering your learning journey.</p>
+            </div>
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#courses">Courses</a></li>
+                    <li><a href="#whyus">Why us</a></li>
+                    <li><a href="#stories">Stories</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h3>Contact Us</h3>
+                <p>Email: casmirokeke38@gmail.com</p>
+                <p>Phone: +234 8163513869</p>
+                <div class="footer-social">
+                    <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+                    <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+                    <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+                    <a href="#"><ion-icon name="logo-google"></ion-icon></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Casmircodes Web Design Hub. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <a href="#" class="back-to-top" id="backToTop"><i class="fas fa-arrow-up"></i></a>
+
+    <script type="module" src="https://unpkg.com/ionicons@5/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5/dist/ionicons/ionicons.js"></script>
+
+    <script src="js/script.js"></script>
+
+
+</body>
+
+</html>
